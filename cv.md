@@ -20,6 +20,7 @@
 + HTML5
 + CSS3
 + VSCode
++ JavaScript (start learning)
 
 ## Code example
 
@@ -42,5 +43,5 @@ function greet(name){
 
 ## Languages
 
-+ Russian - native
++ Russian - native speaker.
 + English - B1 (B2 in progress)
