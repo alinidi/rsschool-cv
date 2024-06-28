@@ -6,14 +6,17 @@
 + E-mail: alinareyz@gmail.com
 + Telegram: [alinidi](https://t.me/alinidi)
 + GitHub: [alinidi](https://github.com/alinidi)
-+ Discord: [alinidi](https://discord.gg)
 + Location: Ufa, Russia
 
 ## About me
 
 #### I am 28 years old and have been working as a design engineer for over five years. I feel the need to learn something new, recently I became very interested in web development
-#### One of my best qualities is determination, so I think I can master front-end development
-#### My work experience also gave me perseverance and the ability to work in a team
+
+
+## My strengths
++ Problem solving skills
++ Teamwork
++ Flexible mind
 
 ## Skills
 
