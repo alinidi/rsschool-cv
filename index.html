@@ -2,142 +2,128 @@
 <html lang="en">
   <head>
     <title>cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="#contacts" class="nav-link">Contacts</a>
+            <a href="#contacts">Contacts</a>
           </li>
           <li class="nav-item">
-            <a href="#summary" class="nav-link">Summary</a>
+            <a href="#aboutMe">About me</a>
           </li>
           <li class="nav-item">
-            <a href="#myStrenghts" class="nav-link">My strengths</a>
+            <a href="#myStrenghts">My strengths</a>
           </li>
           <li class="nav-item">
-            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a href="#codeExample" class="nav-link">Code example</a>
+            <a href="#codeExample">Code example</a>
           </li>
           <li class="nav-item">
-            <a href="#education" class="nav-link">Education</a>
+            <a href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a href="#cources" class="nav-link">Courses</a>
-          </li>
-          <li class="nav-item">
-            <a href="#languages" class="nav-link">Languages</a>
+            <a href="#languages">Languages</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="profile-section">
         <img
           src="/rsschool-cv/assets/img/profilePic.jpg"
-          alt="profilePicture"
+          alt="my photo"
+          class="profile-logo"
         />
-        <div>
+        <div class="profile-section-title">
           <h1>Alina Iulbaeva</h1>
-          <h3>Front-end developer</h3>
+          <h2>Front-end developer (beginner)</h2>
         </div>
       </section>
 
-      <section>
-        <div>
-          <h2>Contacts</h2>
-          <ul>
-            <li>Phone: +7 (987)5910261</li>
-            <li>E-mail: alinareyz@gmail.com</li>
-            <li>Telegram: [alinidi](https://t.me/alinidi)</li>
-            <li>GitHub: [alinidi](https://github.com/alinidi)</li>
-            <li>Location: Ufa, Russia</li>
-          </ul>
-        </div>
+      <section id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+          <li>Phone: +7 (987)5910261</li>
+          <li>E-mail: alinareyz@gmail.com</li>
+          <li>Telegram: [alinidi](https://t.me/alinidi)</li>
+          <li>GitHub: [alinidi](https://github.com/alinidi)</li>
+          <li>Location: Ufa, Russia</li>
+        </ul>
       </section>
 
-      <section>
-        <div>
-          <h2>Summary</h2>
-          <p>
-            I am 28 years old and have been working as a design engineer for
-            over five years. I feel the need to learn something new, recently I
-            became very interested in web development
-          </p>
-        </div>
+      <section id="aboutMe">
+        <h2>About me</h2>
+        <p>
+          I have been working as a design engineer for 5 years. I've always been
+          drawn to the visual and functional parts of my work (designing
+          fixtures that are aesthetically beautiful and functional at the same
+          time). This work experience taught me to look at problems from
+          different angles and taught me patience. I have achieved a lot in this
+          area, now I want to discover a new world of frontend
+        </p>
       </section>
 
-      <section>
-        <div>
-          <h2>My strengths</h2>
-          <ul>
-            <li>Problem solving skills</li>
-            <li>Teamwork</li>
-            <li>Flexible mind</li>
-          </ul>
-        </div>
+      <section id="myStrenghts">
+        <h2>My strengths</h2>
+        <ul>
+          <li>Problem solving skills</li>
+          <li>Teamwork</li>
+          <li>Flexible mind</li>
+        </ul>
       </section>
 
-      <section>
-        <div>
-          <h2>Skills</h2>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>VSCode</li>
-            <li>JavaScript (start learning)</li>
-          </ul>
-        </div>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>VSCode</li>
+          <li>JavaScript (start learning)</li>
+        </ul>
       </section>
 
-      <section>
-        <div>
-          <h2>Code example</h2>
-          <p>
-            Make a function that will return a greeting statement that uses an
-            input; your program should return, "Hello, &lt;name&gt; how are you
-            doing today?".
-          </p>
-          <pre>
+      <section id="codeExample">
+        <h2>Code example</h2>
+        <p>
+          Make a function that will return a greeting statement that uses an
+          input; your program should return, "Hello, &lt;name&gt; how are you
+          doing today?".
+        </p>
+        <pre>
             function greet(name){
               return `Hello, ${name} how are you doing today?`
             }
-          </pre>
-        </div>
+          </pre
+        >
       </section>
 
-      <section>
-        <div>
-          <h2>Education</h2>
-          <p>Bashkir State University</p>
-          <ul>
-            <li>Bachelor of Technological machines and equipment</li>
-          </ul>
-        </div>
+      <section id="education">
+        <h2>Education</h2>
+        <p>Bashkir State University</p>
+        <ul>
+          <li>Bachelor of Technological machines and equipment</li>
+        </ul>
       </section>
 
-      <section>
-        <div>
-          <h2>Courses</h2>
-          <ul>
-            <li>HTML and CSS by [CodeBasics](https://code-basics.com/ru)</li>
-          </ul>
-        </div>
-      </section>
-
-      <section>
-        <div>
-          <h2>Languages</h2>
-          <ul>
-            <li>Russian - native speaker</li>
-            <li>English - B1 (B2 in progress)</li>
-          </ul>
-        </div>
+      <section id="languages">
+        <h2>Languages</h2>
+        <ul>
+          <li>Russian - native speaker</li>
+          <li>English - B1 (B2 in progress)</li>
+        </ul>
       </section>
     </main>
     <footer>

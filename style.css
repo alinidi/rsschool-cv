@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(243, 228, 212);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+}
+
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+header {
+  display: block;
+  background-color: rgb(124, 127, 101);
+}
+
+.nav {
+  padding: 0px 30px;
+  font-size: 25px;
+  border-bottom: 3px solid rgb(54, 54, 54);
+}
+
+.nav-list {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item {
+  color: rgb(54, 54, 54);
+  display: flex;
+}
+
+.profile-logo {
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 10px solid rgb(73, 74, 61);
+}
+
+.profile-section-title {
+}
+
+.profile-section {
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
