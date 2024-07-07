@@ -69,6 +69,7 @@ header {
 
 li {
   list-style: none;
+  padding-bottom: 5px;
 }
 
 .main-container {
@@ -142,6 +143,16 @@ li {
   object-fit: cover;
   border-radius: 50%;
   border: 10px solid rgb(73, 74, 61);
+}
+
+.project-image {
+  width: 100%;
+  border: 5px solid rgb(124, 127, 101);
+  border-radius: 5px;
+}
+
+.project-task {
+  padding-bottom: 10px;
 }
 
 .footer {
