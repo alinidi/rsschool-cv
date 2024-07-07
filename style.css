@@ -1,0 +1,193 @@
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Montserrat";
+  font-weight: 600;
+  line-height: 1.5;
+  background-color: rgb(243, 228, 212);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(54, 54, 54);
+}
+
+header {
+  display: block;
+  background-color: rgb(124, 127, 101);
+  border-bottom: 3px solid rgb(54, 54, 54);
+}
+
+.nav {
+  font-size: 20px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item {
+  color: rgb(54, 54, 54);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  width: 100%;
+  border-bottom: 3px solid rgb(54, 54, 54);
+}
+
+.section {
+  padding: 10px;
+  width: 50%;
+  padding-bottom: 30px;
+}
+
+.section-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section-item a {
+  color: #3d5640;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.section-item a:hover {
+  color: #1e85a1;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(99, 102, 79);
+}
+.profile-section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: end;
+  align-items: end;
+}
+
+.my-name {
+  margin: 0;
+  padding-bottom: 20px;
+  font-size: 50px;
+  font-weight: 450;
+}
+
+.profession {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 300;
+}
+.profile-logo {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid rgb(73, 74, 61);
+}
+
+.project-image {
+  width: 100%;
+  border: 5px solid rgb(124, 127, 101);
+  border-radius: 5px;
+}
+
+.project-task {
+  padding-bottom: 10px;
+}
+
+.footer {
+  display: block;
+  padding-top: 20px;
+  background-color: rgb(124, 127, 101);
+  border-top: 3px solid rgb(54, 54, 54);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.github-logo {
+  width: 150px;
+  height: 70px;
+  background-image: url(/rsschool-cv/assets/img/github.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.rss-logo {
+  width: 150px;
+  height: 70px;
+  background-image: url(/rsschool-cv/assets/img/rs_school_js.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer-bottom-name {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 550;
+  color: #304533;
+}
