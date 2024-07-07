@@ -1,86 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/img/favicon.ico" />
   </head>
   <body>
-    <h1>Alina Iulbaeva</h1>
-    <div>
-      <h2>Contact</h2>
-      <ul>
-        <li>Phone: +7 (987)5910261</li>
-        <li>E-mail: alinareyz@gmail.com</li>
-        <li>Telegram: [alinidi](https://t.me/alinidi)</li>
-        <li>GitHub: [alinidi](https://github.com/alinidi)</li>
-        <li>Location: Ufa, Russia</li>
-      </ul>
-    </div>
-
-    <div>
-      <h2>About me</h2>
-      <p>
-        I am 28 years old and have been working as a design engineer for over
-        five years. I feel the need to learn something new, recently I became
-        very interested in web development
-      </p>
-    </div>
-
-    <div>
-      <h2>My strengths</h2>
-      <ul>
-        <li>Problem solving skills</li>
-        <li>Teamwork</li>
-        <li>Flexible mind</li>
-      </ul>
-    </div>
-
-    <div>
-      <h2>Skills</h2>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>VSCode</li>
-        <li>JavaScript (start learning)</li>
-      </ul>
-    </div>
-
-    <div>
-      <h2>Code example</h2>
-      <p>
-        Make a function that will return a greeting statement that uses an
-        input; your program should return, "Hello, &lt;name&gt; how are you
-        doing today?".
-      </p>
-      <pre>
-        function greet(name){
-          return `Hello, ${name} how are you doing today?`
-        }
-      </pre>
-    </div>
-
-    <div>
-      <h2>Education</h2>
-      <p>Bashkir State University</p>
-      <ul>
-        <li>Bachelor of Technological machines and equipment</li>
-      </ul>
-    </div>
-
-    <div>
-      <h2>Cources</h2>
-      <ul>
-        <li>HTML and CSS by [CodeBasics](https://code-basics.com/ru)</li>
-      </ul>
-    </div>
-
-    <div>
-      <h2>Languages</h2>
-      <ul>
-        <li>Russian - native speaker</li>
-        <li>English - B1 (B2 in progress)</li>
-      </ul>
-    </div>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-me" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#my-strenghts" class="nav-link">My strengths</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code-example" class="nav-link">Code example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#project" class="nav-link">Project</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="profile-section">
+          <img
+            src="/rsschool-cv/assets/img/profilePic.jpg"
+            alt="my photo"
+            class="profile-logo"
+          />
+          <div class="profile-section-title">
+            <h1 class="my-name">Alina Iulbaeva</h1>
+            <h2 class="profession">Front-end developer (beginner)</h2>
+          </div>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul>
+            <li class="section-item">
+              <img
+                src="/rsschool-cv/assets/img/location.png"
+                class="icon"
+                alt="location"
+              />
+              Location Ufa, Russia
+            </li>
+            <li class="section-item">
+              <img
+                src="/rsschool-cv/assets/img/email.png"
+                class="icon"
+                alt="email-icon"
+              />
+              E-mail
+              <a href="mailto:alinareyz@gmail.com" target="_blank"
+                >alinareyz@gmail.com</a
+              >
+            </li>
+            <li class="section-item">
+              <img
+                src="/rsschool-cv/assets/img/telegram.png"
+                class="icon"
+                alt="telegram-icon"
+              />
+              Telegram
+              <a href="https://t.me/alinidi" target="_blank">alinidi</a>
+            </li>
+            <li class="section-item">
+              <img
+                src="/rsschool-cv/assets/img/github-icon.png"
+                class="icon"
+                alt="github-icon"
+              />
+              GitHub
+              <a href="https://github.com/alinidi" target="_blank">alinidi</a>
+            </li>
+            <li class="section-item">
+              <img
+                src="/rsschool-cv/assets/img/discord.png"
+                class="icon"
+                alt="discord-icon"
+              />
+              Discord
+              <a href="https://discord.gg/5TZuePR9" target="_blank">alinidi</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="about-me">
+          <h2 class="section-title">About me</h2>
+          <p>
+            I have been working as a design engineer for 5 years. I've always
+            been drawn to the visual and functional parts of my work (designing
+            fixtures that are aesthetically beautiful and functional at the same
+            time). This work experience taught me to look at problems from
+            different angles and taught me patience. I have achieved a lot in
+            this area, now I want to discover a new world of frontend
+          </p>
+        </section>
+        <section class="section" id="my-strenghts">
+          <h2 class="section-title">My strengths</h2>
+          <ul>
+            <li>Problem solving skills</li>
+            <li>Teamwork</li>
+            <li>Flexible mind</li>
+            <li>Diligence</li>
+          </ul>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              <img
+                src="/rsschool-cv/assets/img/html.png"
+                class="icon"
+                alt="html-icon"
+              />
+              HTML5
+            </li>
+            <li class="section-item">
+              <img
+                src="/rsschool-cv/assets/img/css.png"
+                class="icon"
+                alt="css-icon"
+              />
+              CSS3
+            </li>
+            <li class="section-item">
+              <img
+                src="/rsschool-cv/assets/img/js.png"
+                class="icon"
+                alt="js-icon"
+              />
+              JavaScript (start learning)
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="code-example">
+          <h2 class="section-title">Code example</h2>
+          <p>
+            Make a function that will return a greeting statement that uses an
+            input; your program should return, "Hello, &lt;name&gt; how are you
+            doing today?".
+          </p>
+          <pre>
+                function greet(name){
+                  return `Hello, ${name} how are you doing today?`
+                }
+              </pre
+          >
+        </section>
+        <section class="section" id="project">
+          <h2 class="section-title">Project</h2>
+          <div class="project-task">CV (сurriculum vitae)</div>
+          <a href="https://alinidi.github.io/rsschool-cv/"
+            ><img
+              src="/rsschool-cv/assets/img/project.png"
+              class="project-image"
+              alt="https://alinidi.github.io/rsschool-cv/"
+          /></a>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>Bashkir State University</p>
+          <p>Bachelor of Technological machines and equipment</p>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>Russian - native speaker</li>
+            <li>English - B1 (B2 in progress)</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <a
+          href="https://github.com/alinidi"
+          class="github-logo"
+          target="_blank"
+        ></a>
+        <a href="https://rs.school/js/" class="rss-logo" target="_blank"></a>
+      </div>
+      <h5 class="footer-bottom-name">Alina Iulbaeva 2024</h5>
+    </footer>
   </body>
 </html>
