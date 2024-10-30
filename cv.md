@@ -10,13 +10,15 @@
 
 ## About me
 
-#### Hi i'm 28 and have been working as a design engineer for over five years. Lately I am very interested in frontend and I took the RSS pre-course, it was incredibly interesting to delve deeper into frontend. Now I want to continue the RSS stage 1 course 
+#### Hi i'm 28 and have been working as a design engineer for over five years. Lately I am very interested in frontend and I took the RSS pre-course, it was incredibly interesting to delve deeper into frontend. Now I want to continue to study the frontend with RSS
 
 
 ## My strengths
+
 + Problem solving skills
 + Teamwork
 + Flexible mind
+
 
 ## Skills
 
@@ -24,6 +26,7 @@
 + CSS3
 + VSCode
 + JavaScript (start learning)
+
 
 ## Code example
 
